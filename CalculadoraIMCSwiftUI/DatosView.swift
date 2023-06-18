@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DatosView: View {
     @State  var peso: Float = 0.0
     @State  var altura: Float = 0.0
     @State var resultado: Float = 0.0
@@ -76,6 +76,16 @@ struct ContentView: View {
                 
                 
             }
+            .navigationBarItems(leading: NavigationLink(destination: {
+                SourcesView()
+            }, label: {
+                Text("Qué es IMC")
+            }))
+            .navigationBarItems(trailing: NavigationLink(destination: {
+                ImcInfoView()
+            }, label: {
+                Image(systemName: "info.circle")
+            }))
             .padding(.leading, 20)
             .padding(.trailing, 20)
             .navigationTitle("Calculadora IMC")
@@ -97,6 +107,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        DatosView()
     }
 }

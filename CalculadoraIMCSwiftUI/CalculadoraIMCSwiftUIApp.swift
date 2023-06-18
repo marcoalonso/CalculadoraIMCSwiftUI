@@ -11,7 +11,7 @@ import SwiftUI
 struct CalculadoraIMCSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DatosView()
         }
     }
 }
