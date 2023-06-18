@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6C12AF3C2A3EBFE10006D2E3 /* SourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12AF3B2A3EBFE00006D2E3 /* SourcesView.swift */; };
 		6C12AF3E2A3EC0000006D2E3 /* ImcInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12AF3D2A3EC0000006D2E3 /* ImcInfoView.swift */; };
+		6C12AF402A3EC13B0006D2E3 /* Articulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12AF3F2A3EC13B0006D2E3 /* Articulo.swift */; };
 		6C488EA729F6F366006AB99F /* CalculadoraIMCSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C488EA629F6F366006AB99F /* CalculadoraIMCSwiftUIApp.swift */; };
 		6C488EA929F6F366006AB99F /* DatosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C488EA829F6F366006AB99F /* DatosView.swift */; };
 		6C488EAB29F6F368006AB99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C488EAA29F6F368006AB99F /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		6C12AF3B2A3EBFE00006D2E3 /* SourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesView.swift; sourceTree = "<group>"; };
 		6C12AF3D2A3EC0000006D2E3 /* ImcInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImcInfoView.swift; sourceTree = "<group>"; };
+		6C12AF3F2A3EC13B0006D2E3 /* Articulo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articulo.swift; sourceTree = "<group>"; };
 		6C488EA329F6F366006AB99F /* CalculadoraIMCSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculadoraIMCSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C488EA629F6F366006AB99F /* CalculadoraIMCSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraIMCSwiftUIApp.swift; sourceTree = "<group>"; };
 		6C488EA829F6F366006AB99F /* DatosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				6C488EA629F6F366006AB99F /* CalculadoraIMCSwiftUIApp.swift */,
 				6C488EA829F6F366006AB99F /* DatosView.swift */,
+				6C12AF3F2A3EC13B0006D2E3 /* Articulo.swift */,
 				6C488EAA29F6F368006AB99F /* Assets.xcassets */,
 				6C488EAC29F6F368006AB99F /* Preview Content */,
 				6C488EB429F6F4F6006AB99F /* ResultadoView.swift */,
@@ -153,6 +156,7 @@
 				6C488EA929F6F366006AB99F /* DatosView.swift in Sources */,
 				6C488EA729F6F366006AB99F /* CalculadoraIMCSwiftUIApp.swift in Sources */,
 				6C488EB529F6F4F6006AB99F /* ResultadoView.swift in Sources */,
+				6C12AF402A3EC13B0006D2E3 /* Articulo.swift in Sources */,
 				6C488EB729F700EF006AB99F /* AtributoIMC.swift in Sources */,
 				6C12AF3C2A3EBFE10006D2E3 /* SourcesView.swift in Sources */,
 			);
