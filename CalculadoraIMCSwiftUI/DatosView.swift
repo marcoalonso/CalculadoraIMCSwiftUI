@@ -88,7 +88,7 @@ struct DatosView: View {
             }))
             .padding(.leading, 20)
             .padding(.trailing, 20)
-            .navigationTitle("Calculadora IMC")
+            .navigationBarTitle("Calculadora IMC", displayMode: .inline)
             .fullScreenCover(isPresented: $calculatedResult) {
                 ResultadoView(resultado: $resultado)
             }
